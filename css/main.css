@@ -1,9 +1,69 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
+  color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #a63f38;
+}
+
+.grain {
+  width: 40px;
+  padding: .5em 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  padding: .4rem 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #a63f38;
+}
+
+li:hover {
+  background-color: #a63f38;
 }
